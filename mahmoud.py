@@ -78,7 +78,7 @@ async def _(event):
     await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- Thomas  ](tg://openmessage?user_id=1095638828)''')
+    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- Mahmoud  ](tg://openmessage?user_id=1095638828)''')
 
 
 @cethon.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
